@@ -26,13 +26,13 @@ This project uses the **Multilingual Spam Data** dataset from Kaggle. It consist
 ## Model Explainability & Zero-Shot Capabilities
 To enhance interpretability and versatility of the multilingual spam classifier, we incorporated both model explainability tools and zero-shot learning techniques.
 
-###  LIME (Local Interpretable Model-agnostic Explanations)
+####  LIME (Local Interpretable Model-agnostic Explanations)
 We used LIME to explain individual model predictions by perturbing the input text and observing the impact on output probabilities.
 - Explains why a message was classified as spam or ham
 - Highlights the most influential words contributing to a classification decision
 - Useful for debugging and understanding model behavior in real-world inputs
 
-### SHAP (SHapley Additive exPlanations)
+#### SHAP (SHapley Additive exPlanations)
 SHAP provides consistent feature attributions using Shapley values from cooperative game theory.
 - Offers global and local explanations of model predictions
 - Highlights impact of each word/token on the model’s output score
