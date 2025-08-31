@@ -9,6 +9,13 @@ Fine-tuned a Hugging Face BERT model to classify SMS messages as spam or ham usi
 - Model training using `Trainer` API
 - Evaluation with accuracy & weighted F1
 - Runs on CPU, MPS (Mac GPU), or CUDA
+  
+## Dataset
+- This project uses the **Multilingual Spam Data** dataset from Kaggle. It consists of SMS messages labeled as **spam** or **ham**, and translated across **four languages**:
+- English 🇬🇧  
+- Hindi 🇮🇳  
+- German 🇩🇪  
+- French 🇫🇷
 
 ## Tech Stack
 - PyTorch
